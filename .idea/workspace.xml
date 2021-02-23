@@ -58,6 +58,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="363" y="111" key="#Inspections" timestamp="1614052435462">
       <screen x="0" y="0" width="1472" height="864" />
