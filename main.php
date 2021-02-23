@@ -2,42 +2,48 @@
 
 abstract  class AbstractAnimal
 {
-    public $registrationId;
+    static $identification = 1;
 
     abstract public function addAnimalToBarn();
 
-    abstract public function  collectAnimalProduction();
+    abstract public function collectAnimalProduction();
 
     abstract public function countCollectedProduction();
 
 }
 
-class Hans extends AbstractAnimal {
+class Hens extends AbstractAnimal {
 
-    public function __construct()
+    private $henRegistrationId;
+
+    public function __construct($identification)
     {
+        $this->henRegistrationId = parent::$identification + 1;
     }
 
     public function addAnimalToBarn()
     {
-
+        // TODO: Implement addAnimalToBarn() method.
     }
 
     public function collectAnimalProduction()
     {
-
+        // TODO: Implement collectAnimalProduction() method.
     }
 
     public function countCollectedProduction()
     {
-
+        // TODO: Implement countCollectedProduction() method.
     }
 }
 
 class Cow extends AbstractAnimal {
 
-    public function __construct()
+    private $cowRegistrationId;
+
+    public function __construct($identification)
     {
+        $this->cowRegistrationId = parent::$identification + 1;
     }
 
     public function addAnimalToBarn()
@@ -54,4 +60,6 @@ class Cow extends AbstractAnimal {
     {
 
     }
+
 }
+
