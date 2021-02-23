@@ -3,9 +3,9 @@
 namespace App\Independent;
 
 //Класс Хлев
-use App\Exemplars\Cow;
-use App\Exemplars\Hen;
+use Cow;
 use Exception;
+use Hen;
 
 class Barn {
 

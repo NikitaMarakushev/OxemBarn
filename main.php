@@ -1,9 +1,10 @@
 <?php
 
-require 'vendor/autoload.php';
-//Инстанцирование экземпляра класса Хлева
+//Подключение пользовательского автозагрузчика
+require './app/client_autoload.php';
 use App\Independent\Barn;
 
+//Инстанцирование экземпляра класса Хлева
 $barn = new Barn();
 
 //Хранилище кур и коров
@@ -40,6 +41,7 @@ foreach ($barn_storage as $exemplar){
     if (get_class($exemplar) == 'Cow') {
         $milk += $exemplar->collectAnimalProduction();
     } else {
+
         if (get_class($exemplar) == 'Hen') {
             $eggs += $exemplar->collectAnimalProduction();
         } else {

@@ -1,7 +1,5 @@
 <?php
 
-namespace App\Exemplars;
-
 use App\Core\AbstractAnimal;
 
 //Класс Коровы, наследуется от асбратного класса животного

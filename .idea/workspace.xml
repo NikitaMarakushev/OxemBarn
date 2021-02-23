@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7206e76f-f84d-4008-b49a-ee9b07a53744" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Core/AbstractAnimal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exemplars/Cow.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exemplars/Hen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Independent/Barn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/oxemtz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oxemtz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/client_autoload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exemplars/Cow.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exemplars/Cow.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exemplars/Hen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exemplars/Hen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Independent/Barn.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Independent/Barn.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +39,7 @@
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614047494043</updated>
       <workItem from="1614047499195" duration="11371000" />
-      <workItem from="1614083927344" duration="2488000" />
+      <workItem from="1614083927344" duration="3530000" />
     </task>
     <servers />
   </component>
@@ -68,10 +67,14 @@
       <screen x="0" y="0" width="1472" height="864" />
     </state>
     <state x="542" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1472.864@0.0.1472.864" timestamp="1614084719871" />
-    <state x="534" y="140" key="NewPhpClassDialog" timestamp="1614084967358">
+    <state x="534" y="140" key="NewPhpClassDialog" timestamp="1614086836642">
       <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state x="534" y="140" key="NewPhpClassDialog/0.0.1472.864@0.0.1472.864" timestamp="1614084967358" />
+    <state x="534" y="140" key="NewPhpClassDialog/0.0.1472.864@0.0.1472.864" timestamp="1614086836642" />
+    <state x="253" y="78" key="SettingsEditor" timestamp="1614086974548">
+      <screen x="0" y="0" width="1472" height="864" />
+    </state>
+    <state x="253" y="78" key="SettingsEditor/0.0.1472.864@0.0.1472.864" timestamp="1614086974548" />
     <state x="506" y="226" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1614056340298">
       <screen x="0" y="0" width="1472" height="864" />
     </state>
@@ -80,5 +83,9 @@
       <screen x="0" y="0" width="1472" height="864" />
     </state>
     <state x="564" y="189" key="refactoring.ChangeSignatureDialog/0.0.1472.864@0.0.1472.864" timestamp="1614059159953" />
+    <state x="393" y="197" key="run.anything.popup" timestamp="1614086712149">
+      <screen x="0" y="0" width="1472" height="864" />
+    </state>
+    <state x="393" y="197" key="run.anything.popup/0.0.1472.864@0.0.1472.864" timestamp="1614086712149" />
   </component>
 </project>
