@@ -7,5 +7,10 @@
             "email": "nikitamarakushev@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
 }

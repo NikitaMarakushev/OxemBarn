@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7206e76f-f84d-4008-b49a-ee9b07a53744" name="Default Changelist" comment="" />
+    <list default="true" id="7206e76f-f84d-4008-b49a-ee9b07a53744" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Core/AbstractAnimal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Exemplars/Cow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Exemplars/Hen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Independent/Barn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/oxemtz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oxemtz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/main.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1orb6Wqob5rhSfoibokPlXl3AtF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,6 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614047494043</updated>
       <workItem from="1614047499195" duration="11371000" />
+      <workItem from="1614083927344" duration="2488000" />
     </task>
     <servers />
   </component>
@@ -43,14 +64,14 @@
       <screen x="0" y="0" width="1472" height="864" />
     </state>
     <state x="363" y="111" key="#Inspections/0.0.1472.864@0.0.1472.864" timestamp="1614052435462" />
-    <state x="542" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1614049834986">
+    <state x="542" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1614084719871">
       <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state x="542" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1472.864@0.0.1472.864" timestamp="1614049834986" />
-    <state x="534" y="140" key="NewPhpClassDialog" timestamp="1614052189114">
+    <state x="542" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1472.864@0.0.1472.864" timestamp="1614084719871" />
+    <state x="534" y="140" key="NewPhpClassDialog" timestamp="1614084967358">
       <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state x="534" y="140" key="NewPhpClassDialog/0.0.1472.864@0.0.1472.864" timestamp="1614052189114" />
+    <state x="534" y="140" key="NewPhpClassDialog/0.0.1472.864@0.0.1472.864" timestamp="1614084967358" />
     <state x="506" y="226" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1614056340298">
       <screen x="0" y="0" width="1472" height="864" />
     </state>
