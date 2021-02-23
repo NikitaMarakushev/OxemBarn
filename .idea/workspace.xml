@@ -30,7 +30,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614047494043</updated>
-      <workItem from="1614047499195" duration="3504000" />
+      <workItem from="1614047499195" duration="5968000" />
     </task>
     <servers />
   </component>
@@ -38,9 +38,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="363" y="111" key="#Inspections" timestamp="1614052435462">
+      <screen x="0" y="0" width="1472" height="864" />
+    </state>
+    <state x="363" y="111" key="#Inspections/0.0.1472.864@0.0.1472.864" timestamp="1614052435462" />
     <state x="542" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1614049834986">
       <screen x="0" y="0" width="1472" height="864" />
     </state>
     <state x="542" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1472.864@0.0.1472.864" timestamp="1614049834986" />
+    <state x="534" y="140" key="NewPhpClassDialog" timestamp="1614052189114">
+      <screen x="0" y="0" width="1472" height="864" />
+    </state>
+    <state x="534" y="140" key="NewPhpClassDialog/0.0.1472.864@0.0.1472.864" timestamp="1614052189114" />
+    <state x="564" y="189" key="refactoring.ChangeSignatureDialog" timestamp="1614052858550">
+      <screen x="0" y="0" width="1472" height="864" />
+    </state>
+    <state x="564" y="189" key="refactoring.ChangeSignatureDialog/0.0.1472.864@0.0.1472.864" timestamp="1614052858550" />
   </component>
 </project>
