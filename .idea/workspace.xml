@@ -18,6 +18,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -30,7 +31,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614047494043</updated>
-      <workItem from="1614047499195" duration="5968000" />
+      <workItem from="1614047499195" duration="11283000" />
     </task>
     <servers />
   </component>
@@ -50,9 +51,13 @@
       <screen x="0" y="0" width="1472" height="864" />
     </state>
     <state x="534" y="140" key="NewPhpClassDialog/0.0.1472.864@0.0.1472.864" timestamp="1614052189114" />
-    <state x="564" y="189" key="refactoring.ChangeSignatureDialog" timestamp="1614052858550">
+    <state x="506" y="226" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1614056340298">
       <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state x="564" y="189" key="refactoring.ChangeSignatureDialog/0.0.1472.864@0.0.1472.864" timestamp="1614052858550" />
+    <state x="506" y="226" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1472.864@0.0.1472.864" timestamp="1614056340298" />
+    <state x="564" y="189" key="refactoring.ChangeSignatureDialog" timestamp="1614059159953">
+      <screen x="0" y="0" width="1472" height="864" />
+    </state>
+    <state x="564" y="189" key="refactoring.ChangeSignatureDialog/0.0.1472.864@0.0.1472.864" timestamp="1614059159953" />
   </component>
 </project>
