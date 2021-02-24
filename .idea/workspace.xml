@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7206e76f-f84d-4008-b49a-ee9b07a53744" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/client_autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Core/AbstractAnimal.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Core/AbstractAnimal.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Exemplars/Cow.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exemplars/Cow.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Exemplars/Hen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exemplars/Hen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Independent/Barn.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Independent/Barn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -14,9 +14,24 @@ abstract class AbstractAnimal
     static $identification = 1;
 
     /**
+     * @var int
+     * Регистрационный номер конкретного животного
+     */
+    private $animalRegistrationId;
+
+
+    /**
+     * AbstractAnimal constructor.
+     * Выдает уникальный регистрационный номер для конкретного животного
+     */
+    public function __construct()
+    {
+        $this->animalRegistrationId = self::$identification + 1;
+    }
+
+    /**
      * @return mixed
      * Определяет сигнатуру метода для сбора продукции
      */
     abstract public function collectAnimalProduction();
-
 }

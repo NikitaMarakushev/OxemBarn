@@ -6,22 +6,6 @@ use App\Core\AbstractAnimal;
 class Cow extends AbstractAnimal
 {
     /**
-     * Регистрационный номер конкретной коровы
-     * @var int
-     */
-    private $cowRegistrationId;
-
-
-    /**
-     * Cow constructor.
-     *  Конструктор выдает уникальный регистрационный номер конкретной корове
-     */
-    public function __construct()
-    {
-        $this->cowRegistrationId = parent::$identification + 1;
-    }
-
-    /**
      * @return int
      * Сбор молока, согласно условию, за один надой
      * может быть произведено не более двенадцати яйца
