@@ -12,6 +12,6 @@ class Hen extends AbstractAnimal
      */
     public function collectAnimalProduction(): int
     {
-        return $producedEggs = rand(0, 1);
+        return $production = rand(0, 1);
     }
 }

@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7206e76f-f84d-4008-b49a-ee9b07a53744" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/unusedcode.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Core/AbstractAnimal.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Core/AbstractAnimal.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Exemplars/Cow.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exemplars/Cow.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Exemplars/Hen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exemplars/Hen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Independent/Barn.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Independent/Barn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,10 +81,10 @@
       <screen x="0" y="0" width="1472" height="864" />
     </state>
     <state x="506" y="226" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1472.864@0.0.1472.864" timestamp="1614056340298" />
-    <state x="564" y="189" key="refactoring.ChangeSignatureDialog" timestamp="1614059159953">
+    <state x="564" y="189" key="refactoring.ChangeSignatureDialog" timestamp="1614126312163">
       <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state x="564" y="189" key="refactoring.ChangeSignatureDialog/0.0.1472.864@0.0.1472.864" timestamp="1614059159953" />
+    <state x="564" y="189" key="refactoring.ChangeSignatureDialog/0.0.1472.864@0.0.1472.864" timestamp="1614126312163" />
     <state x="393" y="197" key="run.anything.popup" timestamp="1614086712149">
       <screen x="0" y="0" width="1472" height="864" />
     </state>

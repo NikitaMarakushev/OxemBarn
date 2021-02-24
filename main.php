@@ -7,51 +7,25 @@ use App\Independent\Barn;
 //Инстанцирование экземпляра класса Хлева
 $barn = new Barn();
 
-//Хранилище кур и коров
-$barn_storage = array();
+$chicken = new Hen();
 
-$hens = [];
-$cows = [];
+$cow = new Cow();
 
-//Цикл регистрации коров
-for($i=1;$i<=Barn::MAX_COUNT_OF_COWS;$i++){
-    try {
-        $barn_storage[] = $barn->addCowToBarn($cows);
-    } catch (Exception $e) {
-        echo 'Исключение, невозможно зарегистрировать корову: ',  $e->getMessage(), "\n";
-    }
-}
+$chicken->collectAnimalProduction();
 
-//Цикл регистрации кур
-for($i=1;$i<=Barn::MAX_COUNT_OF_HANS;$i++){
-    try {
-        $barn_storage[] = $barn->addHenToBarn($hens);
-    } catch (Exception $e) {
-        echo 'Исключение, невозможно зарегистрировать курицу: ',  $e->getMessage(), "\n";
-    }
-}
+$cow->collectAnimalProduction();
 
-//Инициализация коризины
-$milk = 0;
-$eggs = 0;
 
-//Код ниже отвечает за сбор продукции
-foreach ($barn_storage as $exemplar){
+$barn->setCountOfAnimal(10);
 
-    if (get_class($exemplar) == 'Cow') {
-        $milk += $exemplar->collectAnimalProduction();
-    } else {
+$barn->addAnimalToBarn($chicken);
 
-        if (get_class($exemplar) == 'Hen') {
-            $eggs += $exemplar->collectAnimalProduction();
-        } else {
-            throw new Exception("Такой продукции не существует!");
-        }
-    }
-}
+$barn->addAnimalToBarn($cow);
+
 
 echo "Сбор завершен успешно!".PHP_EOL;
 
-//Вывод конечного количества продукции
-print("Количство молока: ".$milk.PHP_EOL);
-print("Количство яиц: ".$eggs.PHP_EOL);
+
+print("Количество яиц: ".$barn->collectProduction($chicken).PHP_EOL);
+print("Количество молока: ".$barn->collectProduction($cow).PHP_EOL);
+

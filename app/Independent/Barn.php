@@ -3,43 +3,76 @@
 namespace App\Independent;
 
 //Класс Хлев
-use Cow;
+use App\Core\AbstractAnimal;
 use Exception;
-use Hen;
 
-class Barn {
-
-    //Данные константы определяют максимальное количество коров и кур в хлеве
-    const MAX_COUNT_OF_COWS = 10;
-    const MAX_COUNT_OF_HANS = 20;
+class Barn
+{
+    /**
+     * @var
+     */
+    private $countOfAnimalType;
 
     /**
-     * @param $hens
-     * @return Hen
-     * @throws Exception
-     *  * Метод реализует логику добавления кур в хлев
+     * @var array
      */
-    public function addHenToBarn($hens)
+    private $animalStorage = [];
+
+    /**
+     * @var array
+     */
+    private $productionStorage = [];
+
+    /**
+     * @var array
+     */
+    private $registeredAnimals = [];
+
+    /**
+     * @param $animal
+     * @return int
+     * @throws Exception
+     */
+    public function addAnimalToBarn($animal)
     {
-        if (count($hens) < self::MAX_COUNT_OF_HANS) {
-            return new Hen();
+        if ((count($this->animalStorage) < $this->countOfAnimalType) && (gettype($animal) == "object")) {
+            return array_push($this->animalStorage, $animal);
         } else {
-            throw new Exception("В хлеву достаточно кур!");
+            throw new Exception('В хлеву достаточно животных данного типа');
         }
     }
 
     /**
-     * @param $cows
-     * @return Cow|string
-     * Метод реализует логику добавления коров в хлев
-     * @throws Exception
+     * @param $animal
+     * @return void
      */
-    public function addCowToBarn($cows)
+    public function registerAnimal($animal) {
+        for($i=1;$i<=$this->countOfAnimalType;$i++) {
+            try {
+                $this->registeredAnimals[] = $this->addAnimalToBarn($animal);
+            } catch (Exception $e) {
+                echo 'Исключение, невозможно зарегистрировать животное данного типа: ', $e->getMessage(), "\n";
+            }
+        }
+    }
+
+    /**
+     * @param $value
+     * @return mixed
+     */
+    public function setCountOfAnimal($value)
     {
-        if (count($cows) < self::MAX_COUNT_OF_COWS) {
-            return new Cow();
-        } else {
-            throw new Exception("В хлеву достаточно коров!");
+        return $this->countOfAnimalType = $value;
+    }
+
+    public function collectProduction($animal)
+    {
+        foreach ($this->productionStorage as $exemplar) {
+            if ((gettype($animal) == "object") && ($animal instanceof AbstractAnimal)) {
+                return array_push($this->productionStorage, $animal->collectAnimalProduction());
+            } else {
+                throw new Exception('Вы пытаетесб собрать продукцию не у животного или таклго животного нет!');
+            }
         }
     }
 }

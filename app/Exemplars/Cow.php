@@ -12,6 +12,6 @@ class Cow extends AbstractAnimal
      */
     public function collectAnimalProduction(): int
     {
-        return $producedMilk = rand(8, 12);
+        return $production = rand(8, 12);
     }
 }
