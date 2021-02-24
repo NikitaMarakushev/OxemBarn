@@ -2,10 +2,11 @@
 
 namespace App\Independent;
 
-//Класс Хлев
+
 use App\Core\AbstractAnimal;
 use Exception;
 
+//Класс Хлев
 class Barn
 {
     /**
