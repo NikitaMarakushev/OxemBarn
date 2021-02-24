@@ -71,7 +71,7 @@ class Barn
             if ((gettype($animal) == "object") && ($animal instanceof AbstractAnimal)) {
                 return array_push($this->productionStorage, $animal->collectAnimalProduction());
             } else {
-                throw new Exception('Вы пытаетесб собрать продукцию не у животного или таклго животного нет!');
+                throw new Exception('Вы пытаетесь собрать продукцию не у животного или такого животного нет!');
             }
         }
     }
